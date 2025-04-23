@@ -17,7 +17,7 @@ while True: # while: Bucle mientras una condición sea verdadera (no se sabe la 
 
     if "." in entrada:
         print("ERROR. Decimal numbers are not accepted")
-        continue #evita que se ejecute el resto del codigo después de detectar un error.
+        continue #evita que se ejecute el resto del codigo después de detectar un error, como tratar de convertir un número no válido a int.
 # strip borra caracteres al inicio y final.
 # lstrip borra caracteres a la izquierda
 # rstrip borra caracteres a la derecha
